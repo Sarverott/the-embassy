@@ -22,8 +22,10 @@
     "start": "node src/.pointer.enter.js"
   },
   "dependencies": {
+    "browserfs": "^1.4.3",
     "dockerode": "^4.0.6",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "pyodide": "^0.27.6"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
