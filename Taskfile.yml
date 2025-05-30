@@ -6,6 +6,12 @@ vars:
   GREETING: Hello, World!
 
 tasks:
+  docsupdate:
+    cmds:
+      - git submodule foreach git pull
+      - git add docs .gitmodules
+      - git commit -m "wiki update pulling"
+      - git push
   default:
     cmds:
       - npm install
