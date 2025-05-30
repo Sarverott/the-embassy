@@ -1,0 +1,32 @@
+{
+  "name": "the-embassy",
+  "version": "0.1.0",
+  "description": "for citizens of skriptonus platform stations and humanoidal species living outside informational realms to make possible meet each other and threat as equal.",
+  "keywords": [
+    "skriptonus"
+  ],
+  "homepage": "https://github.com/Sarverott/the-embassy#readme",
+  "bugs": {
+    "url": "https://github.com/Sarverott/the-embassy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/the-embassy.git"
+  },
+  "license": "MIT",
+  "author": "Sett Sarverott",
+  "type": "module",
+  "main": "src/.pointer.enter.js",
+  "scripts": {
+    "test": "task",
+    "start": "node src/.pointer.enter.js"
+  },
+  "dependencies": {
+    "dockerode": "^4.0.6",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@go-task/cli": "^3.43.3"
+  }
+}
